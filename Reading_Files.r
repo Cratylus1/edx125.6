@@ -32,3 +32,6 @@ class(dat) #shows it is a tibble
 dat2 <- read.csv(filename)
 class(dat2)
 dat3 <- read.csv(filename, stringsAsFactors=FALSE)
+#
+#
+#times_2016 <- read_excel("times.xlsx", sheet = "2016") #or sheet =2
